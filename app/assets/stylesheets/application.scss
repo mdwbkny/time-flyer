@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+.menu {
+	font-size: large;
+	padding-top: 4px;
+}
+
+.social-media {
+	text-align: right;
+}
+
+.sm-link{
+	width: 4%;
+	height: auto;
+}
+
+.lg-image{
+	width: 15%;
+	height: auto;
+}
+
+.phone {
+	font-size: x-large;
+	text-align: right;
+	padding-top: 10px;
+	color: #355E3B;
+}

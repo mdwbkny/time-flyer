@@ -1,0 +1,22 @@
+<div class="header">
+  <div class="social-media">
+    <%= link_to image_tag("facebook.png", :class => "sm-link"), "http://www.facebook.com/thetimeflyerllc", :target => "_blank" %>
+    <%= link_to image_tag("instagram.png", :class => "sm-link"), "http://www.instagram.com/thetimeflyerllc", :target => "_blank"%>
+    <%= link_to image_tag("twitter.png", :class => "sm-link"), "http://www.twitter.com/thetimeflyerllc", :target => "_blank" %>
+  </div>
+</div>
+<nav class="navbar navbar-default" id="menu">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <ul class="nav navbar-nav">
+        <li class="menu"><%= link_to 'Home', root_path %></li>
+        <li class="menu"><%= link_to 'About Us', about_path %></li>
+        <li class="menu"><%= link_to 'Find Coupons', coupon_path %></li>
+        <li class="menu"><%= link_to 'Business Directory', root_path %></li>
+        <li class="menu"><%= link_to 'FAQ', root_path %></li>
+        <li class="menu"><%= link_to '$100 Giveaway', root_path %></li>
+      </ul>
+    </div>
+    <p class="menu phone">Call Us Today: 917-818-4305</p>
+  </div>
+</nav>
