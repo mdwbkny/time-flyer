@@ -19,13 +19,16 @@
 	padding-top: 4px;
 }
 
-.social-media {
-	text-align: right;
+.sm-link{
+	width: 2%;
+	height: auto;
 }
 
-.sm-link{
-	width: 4%;
+.main-logo {
+	width: 550px;
 	height: auto;
+	padding-top: 10px;
+	padding-bottom: 15px;
 }
 
 .lg-image{
@@ -36,6 +39,22 @@
 .phone {
 	font-size: x-large;
 	text-align: right;
-	padding-top: 10px;
+	padding-top: 17px;
 	color: #355E3B;
+}
+
+tbody, th {
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+}
+
+.title {
+	text-align: center;
 }

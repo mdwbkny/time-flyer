@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :giveaways
+  resources :businesses
   resources :mains
   root 'mains#home'
   get 'about' => 'mains#about'
