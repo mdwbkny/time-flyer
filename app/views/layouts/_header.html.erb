@@ -3,18 +3,13 @@
   <%= image_tag("logo-cropped.png", :class => "main-logo") %>
   </center>
 </div>
-<nav class="navbar navbar-default" id="menu">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <ul class="nav navbar-nav">
-        <li class="menu"><%= link_to 'Home', root_path %></li>
-        <li class="menu"><%= link_to 'About Us', about_path %></li>
-        <li class="menu"><%= link_to 'Find Coupons', coupon_path %></li>
-        <li class="menu"><%= link_to 'Business Directory', businesses_path %></li>
-        <li class="menu"><%= link_to 'FAQ', root_path %></li>
-        <li class="menu"><%= link_to '$100 Giveaway', new_giveaway_path %></li>
-      </ul>
-    </div>
-    <p class="menu phone">Call Us Today: 917-818-4305</p>
-  </div>
-</nav>
+<div class="main-nav">
+  <center>
+    <p class="menu-list"><%= link_to 'Home', root_path %></p>
+    <p class="menu-list"><%= link_to 'About Us', about_path %></p>
+    <p class="menu-list"><%= link_to 'Find Coupons', coupon_path %></p>
+    <p class="menu-list"><%= link_to 'Business Directory', businesses_path %></p>
+    <p class="menu-list"><%= link_to 'FAQ', faq_path %></p>
+    <p class="menu-list"><%= link_to '$100 Giveaway', new_giveaway_path %></p>
+  </center>
+</div>
